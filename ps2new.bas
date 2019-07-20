@@ -5,7 +5,6 @@ $hwstack = 32                                               ' Hardware Stack 32
 $swstack = 10                                               ' Software Stack 10
 $framesize = 40                                             ' Frame space 40
 
-
 Config Lcdpin = Pin , Db4 = Portd.2 , Db5 = Portd.3 , Db6 = Portd.4 , Db7 = Portd.5 , E = Portd.1 , Rs = Portd.0
 Config Lcd = 16 * 2
 
